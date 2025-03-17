@@ -1,0 +1,12 @@
+prefix=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env
+exec_prefix=${prefix}
+libdir=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/lib
+includedir=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/include
+
+Name: absl_non_temporal_arm_intrinsics
+Description: Abseil non_temporal_arm_intrinsics library
+URL: https://abseil.io/
+Version: 20240116
+Requires: absl_config = 20240116
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -DNOMINMAX

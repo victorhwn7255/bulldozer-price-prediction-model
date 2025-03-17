@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/bin/python -m PyQt6.lupdate.pylupdate ${1+"$@"}

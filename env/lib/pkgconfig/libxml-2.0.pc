@@ -1,0 +1,13 @@
+prefix=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.13.5
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/lib -lz -L/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/lib -llzma  -L/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/lib -liconv    
+Cflags: -I${includedir}/libxml2 -I/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/include 

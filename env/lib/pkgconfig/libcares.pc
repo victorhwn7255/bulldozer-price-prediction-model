@@ -1,0 +1,19 @@
+#***************************************************************************
+# Project        ___       __ _ _ __ ___  ___ 
+#               / __|____ / _` | '__/ _ \/ __|
+#              | (_|_____| (_| | | |  __/\__ \
+#               \___|     \__,_|_|  \___||___/
+#
+exec_prefix=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/bin
+libdir=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/lib
+includedir=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/include
+
+Name: c-ares
+URL: https://c-ares.org/
+Description: asynchronous DNS lookup library
+Version: 1.19.1
+Requires: 
+Requires.private: 
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lcares
+Libs.private: 

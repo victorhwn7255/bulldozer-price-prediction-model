@@ -1,0 +1,14 @@
+prefix=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env
+exec_prefix=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env
+libdir=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/lib
+includedir=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/lib -lfreetype
+Libs.private: -lz -L/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

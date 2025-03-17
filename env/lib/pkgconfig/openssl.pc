@@ -1,0 +1,9 @@
+prefix=/Users/victor_he/Downloads/AI_ML_Projects/bulldozer_price_regression_project/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.0.16
+Requires: libssl libcrypto
